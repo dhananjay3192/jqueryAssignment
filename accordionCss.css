@@ -1,0 +1,116 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.container{
+	display:flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: flex-start;
+	background-color: #4DB6AC;
+	align-items: center;
+	min-height: 150vh;
+}
+.note{
+	margin:10px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.90rem;
+	margin-bottom: 10vh;
+}
+.row{
+	display: flex;
+	flex-direction: column;
+	background-color: ;
+	width:70%;
+	height:auto;
+}
+.accordionBar{
+	display: flex;
+	align-self: flex-start;
+	justify-content: space-between;
+	background-color: #006666;
+	height:5vmax;
+	width:100%;
+	border:1px solid black;
+	border-radius: 5px;
+}
+.heading{
+	align-self: center;
+	margin-left:19px;
+	font-size: 2rem;
+	cursor:pointer;
+	font-family: 'Slabo 27px', serif;
+}
+.icon{
+	align-self: center;
+	font-size: 30px;
+	margin-right:12px;
+}
+.content{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #009999;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-radius: 5px; 
+	width:100%;
+}
+
+.paragraph{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.55rem;
+	color: white;
+	padding-left:8px;
+	padding-right: 5px;
+}
+.icon-rotate{
+	 transition: 0.1s;
+     transform: rotate(90deg);
+     color:white;
+
+}
+
+.hide{              /* Accordion's content is hidden by default */
+	display:none;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 576px)
+{
+	.note{
+		font-size: 1.15rem;
+	}
+
+	.row{
+		width: 80%;
+	}
+	.heading{
+		font-size: 1.15rem;
+		margin-left: 10px;
+	}
+	.icon{
+		font-size: 24px;
+	}
+	.paragraph{
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+}
+
+
+@media only screen and (min-width: 767px) and (min-height: 1280px)
+{   
+   .note{
+   	font-size: 2rem;
+   }
+   .paragraph{
+   	font-size: 2rem;
+   }
+   .heading{
+   	font-size: 2.5rem;
+   }
+   .icon{
+   	font-size: 45px;
+   }
+}
