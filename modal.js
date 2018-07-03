@@ -4,7 +4,7 @@ $(document).ready(()=>{
 
 	})
 	$('.modal-button').on('mouseleave',()=>{
-        $('.modal-button').css({'color':'black', 'background-color':'white'});
+        $('.modal-button').css({'color':'black', 'background-color':'#FFFFFF'});
 
 	})
 
@@ -35,7 +35,7 @@ $(document).ready(()=>{
     
     //the close changes its color on mouseenter and mouseleave
     $('button').eq(2).on('mouseenter', ()=>{
-    	$('button').eq(2).css('background-color','red');
+    	$('button').eq(2).css('background-color','#FF0000');
     })
     $('button').eq(2).on('mouseleave', ()=>{
     	$('button').eq(2).css('background-color','#003399');
