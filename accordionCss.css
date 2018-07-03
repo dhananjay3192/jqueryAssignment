@@ -21,7 +21,6 @@ body{
 .row{
 	display: flex;
 	flex-direction: column;
-	background-color: ;
 	width:70%;
 	height:auto;
 }
@@ -61,14 +60,14 @@ body{
 .paragraph{
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1.55rem;
-	color: white;
+	color: #FFFFFF;
 	padding-left:8px;
 	padding-right: 5px;
 }
 .icon-rotate{
 	 transition: 0.1s;
      transform: rotate(90deg);
-     color:white;
+     color:#FFFFFF;
 
 }
 
